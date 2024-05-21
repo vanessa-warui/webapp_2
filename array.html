@@ -1,0 +1,82 @@
+<h1>Numeric Arrays</h1>
+
+<?php
+// Index Array or Numeric Array
+$color = array("Black", "Green", "White", "Red", "Black", 45, 78, 78.58);
+
+$Item = [45, 78, 45, 'Book' ,'Pen', 'Ruler'];
+?>
+
+<pre>
+    <?php print_r($color); ?>
+</pre>
+
+<?php print $color[1]; ?>
+<br>
+<?php print $color[2]; ?>
+<pre>
+   <?php var_dump($Item); ?>
+</pre>
+
+
+<h1>Associative Arrays</h1>
+
+<?php
+   $user_emails = array(
+       "Alex" => "aokama@yahoo.com",
+       "Peter" => "pokama@yahoo.com",
+       "Amani" => "amani@yahoo.com"
+   );
+?>
+
+<pre>
+    <?php print_r($user_emails); ?>
+</pre>   
+<?php print $user_emails['Peter'] ?>
+
+
+<h1>Multidimensional Arrays</h1>
+
+<?php
+
+$user_details =[
+    "Director" => [
+        "Fullname" => "Alex Okama"
+        "Email" => "AOkama@yahoo.com"
+        "Address" => "Mada"
+        "Phone" => [
+            "Mobile" => "+2547008669945"
+            "Cell" => "+2547008669945"
+            "Work" => "2547008669945"
+        ],
+    ],
+
+    "Secretary" => [
+        "Fullname" => "Amani Okama"
+        "Email" => "amani@yahoo.com"
+        "Address" => "Mada"
+        "Phone" => [
+            "Mobile" => "+254712346995"
+            "Cell" => "+254712346995"
+            "Work" => "+254712346995"
+        ],
+    ],
+
+    "Manager" => [
+        "Fullname" => "Peter Okama"
+        "Email" => "POkama@yahoo.com"
+        "Address" => "Mada"
+        "Phone" => [
+            "Mobile" => "+254712345678"
+            "Cell" => "+254712345678"
+            "Work" => "+254712345678"
+        ]
+    ]
+    ];    
+?>
+<?php print $user_details["Secretary"], ''
+
+
+$call["fname"] = "Alex";
+$call["lname"] = "Okama";
+$call["email"] = "AOkama@yahoo.com"
