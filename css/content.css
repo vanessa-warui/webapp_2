@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 p, li{
     text-align: justify; 
     font-family: Arial, Helvetica, sans-serif;
@@ -22,3 +23,29 @@ img{
 }
 
 
+=======
+p, li{
+    text-align: justify; 
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+img{
+    padding-right: 10px;
+    width: 40%;
+    float: left;
+}
+
+
+.content{
+    float: left;
+    width: 69%;
+    padding: 15px;
+}
+.side_bar{
+    float: left;
+    width: 31%;
+    padding: 15px;
+}
+
+
+>>>>>>> fc9cef0e91156e9e782249f212a949d1a4eaa6df
